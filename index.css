@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.imgcontainer {
+  display: grid;
+  grid-template-rows: 800px 100px;
+  grid-template-columns: auto auto;
+}
+
+.imgcontainer-animate {
+  display: grid;
+  grid-template-rows: 800px 100px;
+  grid-template-columns: auto auto;
+}
+
+.img-item {
+  border: 1px solid red;
+  grid-row: 1;
+  grid-column: 1/3;
+}
+.img-item > img {
+  height: 100%;
+  width: 100%;
+}
+
+.icon-bar {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.icon-bar a {
+  padding: 0.75em;
+  width: 100%;
+  font-size: 2rem;
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: azure;
+  text-align: center;
+}
+
+@media (max-width: 625px) {
+  .icon-bar {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    min-width: 5%;
+    max-width: 15%;
+  }
+  .icon-bar a {
+    text-align: center; /* Center-align text */
+    padding: 3rem; /* Add some padding */
+    transition: all 0.3s ease-out; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+}
+
+.active {
+  background-color: gray;
+}
+.different {
+  background-color: green;
+}
+a:hover {
+  background-color: black;
+}

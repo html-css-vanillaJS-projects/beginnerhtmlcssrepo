@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-image: url("./assets/bgimage.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200vh;
+}
+main {
+  margin: 10% 25% 0 25%;
+}
+.form-container {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  size: 1em;
+  background: rgb(169, 253, 253);
+  padding: 1em 1.5em;
+}
+.header-container {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+.form-data {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amazing-input {
+  padding: 1.2em;
+  border-radius: 0.5em;
+  background-color: beige;
+}
+
+option {
+  background-color: rgb(184, 250, 255);
+  font-size: 2em;
+}
+
+.submit-button {
+  font-family: "Work Sans", sans-serif;
+  padding: 1em 1.5em 1em 1.5em;
+  border-radius: 0.5em;
+  font-size: large;
+  font-weight: bold;
+  background-color: bisque;
+}
+
+input[type]:focus,
+textarea:focus,
+select:focus {
+  background-color: rgb(168, 235, 252);
+}

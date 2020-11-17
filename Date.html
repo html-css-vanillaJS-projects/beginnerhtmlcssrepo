@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="date.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header-container">
+        <h1>Product survey form</h1>
+        <h3>Your voice helps</h3>
+      </div>
+      <div class="form-container">
+        <form class="form-data">
+          <label for="fname">First Name</label>
+          <input
+            class="amazing-input"
+            type="text"
+            id="fname"
+            name="fname"
+          /><br />
+
+          <label for="email">Email</label>
+          <input
+            class="amazing-input"
+            type="email"
+            id="email"
+            name="email"
+          /><br />
+          <label for="age">Age</label>
+          <input
+            class="amazing-input"
+            type="number"
+            id="age"
+            name="age"
+          /><br />
+          <label for="role">Which option describes your current role</label>
+          <select id="role" class="amazing-input">
+            <option></option>
+            <option>Business</option>
+            <option>Executive</option>
+            <option>Student</option>
+            <option>Others</option>
+          </select>
+          <br />
+          <label for="recommend"
+            >Would you recommend the product to a friend</label
+          >
+          <select id="recommend" class="amazing-input">
+            <option>Yes</option>
+            <option>No</option>
+          </select></br>
+          <label for="services">Products you love</label>
+          <select id="services" class="amazing-input">
+            <option></option>
+            <option>T9-01</option>
+            <option>F35-01</option>
+            <option>C56-matress</option>
+            <option>C78-Bed</option>
+            <option>FerryLine01</option>
+          </select>
+          <br />
+          <label for="comments">Any comments or suggestions</label>
+          <textarea class="amazing-input" id="comments"></textarea> <br />
+          <input id="submit" class="submit-button" type="submit" />
+        </form>
+      </div>
+    </main>
+    <script src="./scripts/date.js"></script>
+  </body>
+</html>
