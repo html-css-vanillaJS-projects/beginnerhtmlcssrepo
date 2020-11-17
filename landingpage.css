@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.center-text-align {
+  text-align: center;
+}
+.main-header {
+  background-color: black;
+  background-image: url(./assets/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: wheat;
+  padding: 10em 3.5em;
+}
+.read-more-btn {
+  padding: 1em 3em;
+  color: wheat;
+  background-color: black;
+  border: 0px;
+  font-size: 1em;
+}
+
+.read-more-btn:hover {
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+}
+.main-info {
+  background-color: lightgrey;
+  color: black;
+  padding: 2.5em 5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-info {
+  background-color: white;
+}
+.offering-info {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 5em;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  min-width: 420px;
+  box-sizing: border-box;
+}
+
+.product-info-general-margin {
+  margin-right: 3em;
+}
+
+.product-info-text {
+  padding: 2em;
+}
+
+img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.company-details {
+  display: flex;
+  color: white;
+}
+.company-details-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2em;
+  background-color: black;
+  width: 50%;
+  box-sizing: border-box;
+}
+.about-company {
+  background-color: #2690d4;
+}
+
+.footer-last {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 100%;
+}
+.footer-last div {
+  color: white;
+  background-color: black;
+  padding: 2em;
+  text-align: center;
+  width: 50%;
+}
+@media (max-width: 700px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .read-more-btn {
+    padding: 2em 3em;
+    border: 0px;
+    font-size: 1em;
+  }
+  .offering-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-info-general-margin {
+    margin-bottom: 3em;
+  }
+  img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+  }
+
+  .company-details {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .company-details-info {
+    width: 100%;
+  }
+  .footer-last {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-last div {
+    width: 100%;
+  }
+}
